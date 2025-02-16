@@ -1,0 +1,16 @@
+.sidebar {
+  grid-column: 1 / 3;
+  border-right: 1px solid #ccc;
+}
+
+.sidebarList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebarListItem a {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
